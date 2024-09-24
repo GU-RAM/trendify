@@ -1,0 +1,1 @@
+export const StrongPasswordRegexp: RegExp = /^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/

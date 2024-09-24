@@ -13,7 +13,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent {
   items: MenuItem[] = [];
-  faCoffee = faCoffee; // Add icon to class property
+  faCoffee = faCoffee;
 
   ngOnInit() {
     this.items = [
